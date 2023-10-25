@@ -32,7 +32,7 @@ grpcio==1.56.2
 h11==0.14.0
 httpcore
 httptools
-httpx==0.25.0
+httpx
 huggingface-hub==0.17.3
 humanfriendly==10.0
 idna==3.4
