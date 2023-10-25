@@ -42,7 +42,6 @@ Jinja2
 jsonpatch
 jsonpointer
 langchain
-langsmith
 Lazify
 MarkupSafe
 marshmallow
