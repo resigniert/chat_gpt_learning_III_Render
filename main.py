@@ -15,7 +15,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
-my_secret = "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"
+my_secret = os.environ["open_ai_GPT_key_III"]
 os.environ["OPENAI_API_KEY"] = my_secret
 
 from langchain.memory import ChatMessageHistory, ConversationBufferMemory
